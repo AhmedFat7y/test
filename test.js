@@ -12,7 +12,7 @@ const testCases = [
 describe("reverseWordOrder Function", function() {
   it("should reverse word order in sentence", function() {
     const testCase = testCases[0];
-    assert.equal(reverseWordOrder(testCase.input), testCase.expected);
+    assert.equEEal(reverseWordOrder(testCase.input), testCase.expected);
   });
   it("should preserve extra spaces between words after reverse", function() {
     const testCase = testCases[1];
